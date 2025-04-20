@@ -8,11 +8,9 @@ Este repositorio contiene un script en Python para descubrir y visualizar relaci
 ```bash
 ├── README.md              # Documentación del proyecto
 ├── requirements.txt       # Dependencias necesarias
-├── analysis.py            # Script principal de análisis
+├── Correlación_Productos.py            # Script principal de análisis
 └── data/
-    ├── input.csv          # Datos originales
     ├── heatmap.png        # Heatmap de salida
-    └── relations.csv      # CSV con relaciones calculadas
 ```
 
 ---
@@ -34,7 +32,7 @@ pip install -r requirements.txt
 ---
 
 ## ⚙️ Configuración
-En `analysis.py`, ajusta los siguientes parámetros antes de ejecutar:
+En `Correlación_Productos.py`, ajusta los siguientes parámetros antes de ejecutar:
 
 | Variable            | Descripción                                        | Valor por defecto |
 |---------------------|----------------------------------------------------|-------------------|
@@ -70,7 +68,7 @@ En `analysis.py`, ajusta los siguientes parámetros antes de ejecutar:
 
 ## 📈 Ejecución
 ```bash
-python analysis.py
+python Correlación_Productos.py
 ```
 Al terminar, verás en consola las rutas a `heatmap.png` y `relations.csv` generados.
 
